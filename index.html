@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login page</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="form-box">
+            <div class="btn-box">
+                <div id="btn">
+
+                </div>
+                <button type="button" class="toggl-btn " onclick="login()">Login</button>
+                <button type="button" class="toggl-btn" onclick="register()" >Register</button>
+
+            </div>
+            <div class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <form id="login" action="" class="input-Group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Enter password" required>
+                <input type="checkbox" class="check-box"> <span>remember password</span>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <form id="register" action="" class="input-Group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="password" class="input-field" placeholder="Enter password" required>
+                <input type="checkbox" class="check-box"> <span>I agree to the terms and condition</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+        
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/602e4027aa.js" crossorigin="anonymous"> </script>
+     
+    <script src="index.js"></script>
+
+</body>
+
+</html>
+
