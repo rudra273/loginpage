@@ -104,7 +104,7 @@ span{
 }
 @media(max-width:700px){
     .form-box{
-        width: 330px;
+        width: 380px;
         height: 420px;
         position: relative;
         margin: 20% auto;
